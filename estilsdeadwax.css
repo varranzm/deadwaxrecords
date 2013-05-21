@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+a {color: black; }
+
+a:hover {color: #999; }
+
+a, a:hover, a:visited, a:active { outline: #f33500; text-decoration:none }
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #ececec;
+}
+#cabecera {
+	background-color: #ececec;
+	/* [disabled]position: relative; */
+	height: 161px;
+}
+#cabeceracentre {
+	background-color: #ececec;
+	/* [disabled]position: relative; */
+	height: 124px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(media/capcelera1.jpg);
+}
+#menugeneral {
+	/* [disabled]background-color: #0CC; */
+	/* [disabled]position: relative; */
+	height: 54px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#sombra {
+	/* [disabled]position: relative; */
+	height: 28px;
+	width: 94px;
+	background-image: url(media/capcelera2.jpg);
+	float: left;
+}
+#menu {
+	position: relative;
+	height: 28px;
+	width: 650px;
+	float: left;
+}
+#redes {
+	position: relative;
+	height: 28px;
+	width: 205px;
+	float: right;
+}
+#botones {
+	position: relative;
+	height: 28px;
+	width: 100px;
+	float: right;
+}
+
+#nomgrup {
+	background-color: #FFF;
+	/* [disabled]position: relative; */
+	height: 110px;
+}
+#contenedornomgrup {
+	background-color: #FFF;
+	/* [disabled]position: relative; */
+	height: 108px;
+	width: 925px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height:100%;
+	clear: both
+}
+#grup {
+	position: relative;
+	height: 25px;
+	width: 700px;
+	float: left;
+	margin-top: 40px;
+	clear: both
+}
+#lineacreus {
+	position: relative;
+	height: 15px;
+	width: 700px;
+	float: left;
+	/* [disabled]margin-left: 40px; */
+	margin-top: 7px;
+}
+
+#textos {
+	background-color: #FFF;
+	/* [disabled]position: relative; */
+	min-height:100%;
+	overflow:hidden;
+}
+#contenedortextos {
+	/* [disabled]background-color: #0CC; */
+	/* [disabled]position: relative; */
+	width: 925px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height:520px;
+}
+#columnaesquerra {
+	/* [disabled]background-color: #FFF; */
+	min-height:100%;
+	float: left;
+	width: 666px;
+}
+.textosHome {
+	float: left;
+	width: 925px;
+	min-height:100%;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	line-height: 16px;
+	color: #666;
+	text-align: justify;
+}
+#columnaesquerraHome {
+	min-height:320px;
+	float: left;
+	width: 666px;
+}
+
+#columnadreta {
+	/* [disabled]background-color: #33C; */
+	min-height:100%;
+	float: right;
+	width: 240px;
+}
+#columnadretaHome {
+	/* [disabled]background-color: #33C; */
+	min-height:320px;
+	float: right;
+	width: 240px;
+}
+
+#caixapreu {
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #dedede;
+	border-bottom-color: #dedede;
+	height: 27px;
+	width: 240px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+#interiorcaixapreu {
+	float: left;
+	height: 20px;
+	width: 150px;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+
+
+#blanc {
+	background-color: #FFF;
+	height: 50px;
+	clear: both
+	/* [disabled]position: relative; */}
+	
+	
+#footer{
+min-height: 100%;
+background-color: #ececec;
+padding:10px 0 40px 0;
+overflow: hidden;
+}
+
+
+#bottom {
+	background-color: #ececec;
+	height: 100px;
+	/* [disabled]position: relative; */
+}
+
+#bottom2 {
+	background-color: #ececec;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+}
+#bottomcentre {
+	/* [disabled]background-color: #39C; */
+	/* [disabled]position: relative; */
+	height: 100px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#bottommenuinterior {
+	/* [disabled]background-color: #0F6; */
+	height: 60px;
+	width: 700px;
+	bottom: 50px;
+	top: 30px;
+	left: 0px;
+	position: relative;
+	margin-left: 20px;
+	float: left;
+	margin-top: 10px;
+}
+
+#logopeu {
+	background-image: url(media/logopeu.png);
+	height: 78px;
+	width: 78px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.nomgrup {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	text-align: left;
+}
+.nomdisco {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 22px;
+	font-weight: normal;
+	color: #000;
+	text-align: left;
+}
+
+.lineacreus {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 9px;
+	font-weight: normal;
+	color: #000;
+	text-align: left;
+}
+
+.textos {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666;
+	text-align: justify;
+	line-height: 16px;
+}
+
+.textosNEGRETA {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #000;
+}
+.preciodisco {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #000;
+	line-height: normal;
+}
+.soldout {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #d5464c;
+	line-height: normal;
+}
+
+
+
+.textosllista {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666;
+	text-align: justify;
+	line-height: 20px;
+	/* [disabled]padding-left: 5px; */
+}
+.menusuperior {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	text-align: left;
+	line-height: 25px;
+}
+.colorfondocelda {
+	color: #f7f7f6;
+}
+
+.menuinferior {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10px;
+	font-weight: normal;
+	color: #666;
+	text-align: left;
+	line-height: 18px;
+}
