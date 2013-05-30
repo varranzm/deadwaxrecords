@@ -373,6 +373,8 @@ class Jcart {
 
 		// Update all items in the cart
 		if($_POST['jcartUpdateCart'] || $_POST['jcartCheckout'])	{
+			echo "<!-- se ha cumplido _POST[jcartupdatecart] o _POST jcartchecout -->"; 
+			echo "<!-- reg = ".$this->reg." jcartReg = ". $_POST["jcartReg"]." -->";print_r($_POST);
 			$cartUpdated = $this->update_cart();
 			if ($cartUpdated !== true)	{
 				$errorMessage = $config['text']['quantityError'];
